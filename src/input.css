@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 640px) {
+  .Let-us {
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .our-pricing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-section {
+    height: auto;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    padding: 70px 0px;
+  }
+  .testimonal {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .service {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .our-pricing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 330px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
